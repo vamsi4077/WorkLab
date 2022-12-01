@@ -1,0 +1,37 @@
+#feed-post-div{
+    background-color: #353535;
+    border-radius: 10px;
+    margin: 15px 0px 0px 0px;
+}
+#feed-post-header{
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#feed-post-person-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#feed-post-image{
+    height: 238px;
+    width: 100%;
+}
+#feed-post-description{
+    padding: 0px 10px 0px 10px;
+    max-height: 124px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #E1E3E3;
+}
+#feed-post-interaction-buttons{
+    padding: 10px 0px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

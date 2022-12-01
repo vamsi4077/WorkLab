@@ -1,0 +1,11 @@
+
+#app{
+    min-height: 100vh;
+    background-color: #262525;
+
+}
+@media only screen and (max-width: 600px) {
+    /* #ide {
+      display: none;
+    } */
+  }

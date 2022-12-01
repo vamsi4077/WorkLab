@@ -1,0 +1,61 @@
+#project-info-div{
+    background-color: #353535;
+    min-height: 280px;
+    width: 100%;
+}
+#project-cover-pic{
+    min-height: 220px;
+    max-height: 220px;
+    width: 100%;
+    object-fit: fill;
+}
+#project-pic-and-title{
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 6;
+    top: 270px;
+}
+#project-title{
+    color: #fafdfd;
+    font-size: 24px;
+    font-weight: 700;
+}
+#project-subtitle{
+    color: #fafdfd;
+    font-size: 14px;
+    font-weight: 400;
+}
+#project-desc-div{
+    padding: 15px;
+    margin-top: 80px;
+    color: #fafdfd;
+    font-size: 16px;
+    font-weight: 400;
+}
+#projectspage-profile-input-div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#post-input{
+    background-color: #353535;
+    width: 500px;
+    height: 46px;
+    border-radius: 24px;
+    padding: 0px 10px;
+    caret-color: #FAFDFD;
+    color: #FAFDFD;
+    border: 0;
+    outline: 0;
+}
+#projectspage-post-options-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}

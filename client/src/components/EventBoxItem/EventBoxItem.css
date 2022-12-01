@@ -1,0 +1,13 @@
+#event-box-item-div{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#event-box-item-date-div{
+    color: #FF7C2A;
+    font-weight: 700;
+    font-size: 14px;
+}

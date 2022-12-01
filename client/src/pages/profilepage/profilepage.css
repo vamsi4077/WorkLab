@@ -1,0 +1,49 @@
+#profile-info-div{
+    background-color: #353535;
+    min-height: 280px;
+    width: 100%;
+}
+#profile-cover-pic{
+    min-height: 220px;
+    max-height: 220px;
+    width: 100%;
+    object-fit: fill;
+}
+#profile-pic-and-title{
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 6;
+    top: 270px;
+}
+#profile-name{
+    color: #fafdfd;
+    font-size: 24px;
+    font-weight: 700;
+}
+#profile-designation{
+    color: #fafdfd;
+    font-size: 14px;
+    font-weight: 400;
+}
+#profile-desc-div{
+    padding: 15px;
+    margin-top: 80px;
+    color: #fafdfd;
+    font-size: 16px;
+    font-weight: 400;
+}
+#profile-tab-div{
+    padding: 10px 0px;
+    background-color: #262626;
+}
+#ongoing-projects-div{
+    margin: 10px 0px;
+    background-color: #353535;
+    padding-bottom: 10px;
+}
+#past-projects-div{
+    margin: 10px 0px;
+    background-color: #353535;
+}

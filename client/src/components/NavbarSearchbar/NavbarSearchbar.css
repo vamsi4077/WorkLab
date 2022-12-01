@@ -1,0 +1,45 @@
+.searchbar {
+    max-width: 200px;
+    display: flex;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 30px;
+    border-radius: 20px;
+  }
+  
+  .fadeInWidth {
+    animation: 0.2s linear fadeInWidth;
+  }
+  
+  .fadeOutWidth {
+    animation: 0.2s linear fadeOutWidth;
+  }
+  
+  .fadeIn {
+    animation: 0.8s linear fadeIn;
+  }
+  .fadeOut {
+    animation: 1s linear fadeOut;
+  }
+  
+  .search-input {
+    color: #FAFDFD;
+    border: 0;
+    outline: 0;
+    background-color: #353535;
+    padding: 0px 15px;
+    border-radius: 20px;
+    transition: width 0.4s linear;
+    caret-color: #FAFDFD;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+  }
+  
+  .search-icon {
+    /* float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: #FAFDFD;
+    /* font-size: small; */
+  }
